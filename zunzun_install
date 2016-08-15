@@ -1,6 +1,6 @@
 #!/bin/sh
-apt-get --yes --force-yes install python3-scipy python3-matplotlib
-apt-get --yes --force-yes install python3-django python3-bs4
-apt-get --yes --force-yes install python3-reportlab python3-reportlab-accel
-apt-get --yes --force-yes install imagemagick gifsicle
+apt-get --yes --allow install python3-scipy python3-matplotlib
+apt-get --yes --allow install python3-django python3-bs4
+apt-get --yes --allow install python3-reportlab python3-reportlab-accel
+apt-get --yes --allow install imagemagick gifsicle
 git clone https://github.com/zunzun/zunzunsite3.git
