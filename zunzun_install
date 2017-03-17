@@ -1,9 +1,11 @@
 #!/bin/sh
+apt-get --yes update
 apt-get --yes install python3-pip
 apt-get --yes install python3-scipy python3-matplotlib
 apt-get --yes install python3-django python3-bs4
 apt-get --yes install python3-reportlab python3-reportlab-accel
 apt-get --yes install imagemagick gifsicle
+apt-get --yes update
 pip3 install pyeq3
 git clone https://github.com/zunzun/zunzunsite3.git
 python3 manage.py runserver
