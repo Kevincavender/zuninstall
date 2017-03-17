@@ -12,8 +12,6 @@ Install VirtualBox with Ubuntu 16.01 LTS (what works for me)
 
 `git clone 'https://github.com/Kevincavender/zuninstall'`
 
-`cd zuninstall`
-
-`chmod +x zunzun_install`
+`chmod +x zuninstall/zunzun_install`
 
 `./zunzun_install`
