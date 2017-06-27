@@ -15,3 +15,6 @@ Install VirtualBox with Ubuntu 16.01 LTS (what works for me)
 `chmod +x zuninstall/zunzun_install`
 
 `./zunzun_install`
+# for windows installing Tkinterfit
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
+will add to later
